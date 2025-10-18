@@ -212,7 +212,7 @@
                                     <i class="bi bi-clock-fill me-1"></i><?= $row['fecha']; ?>
                                 </small>
                             </div>
-                            <p class="mb-0 mt-2"><?= nl2br(htmlspecialchars($row['mensaje'])); ?></p>
+                            <p class="mb-0 mt-2 text-white"><?= nl2br(htmlspecialchars($row['mensaje'])); ?></p>
                         </div>
                     <?php endwhile; ?>
                 </div>
